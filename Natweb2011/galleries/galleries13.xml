@@ -1,0 +1,7 @@
+<galleries> 
+ <gallery base="bump/" file="photos.xml">
+    <sitename>bump</sitename>
+    <security><![CDATA[]]> </security>
+ </gallery>
+ 
+</galleries>

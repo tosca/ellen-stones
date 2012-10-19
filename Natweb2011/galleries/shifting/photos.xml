@@ -1,0 +1,181 @@
+<gallery
+base = ""
+background = "#FFFFFF"
+banner = "#F0F0F0"
+text = "#000000"
+link = "#0000FF"
+alink = "#FF0000"
+vlink = "#800080"
+date = "11/18/2010">
+	<sitename>shifting</sitename>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "4" color =  "#8b042f"> </banner>
+<thumbnail base ="thumbnails/" font = "Arial" fontsize = "4" color = "#F0F0F0" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="images/" font = "Arial" fontsize = "3" color = "#F0F0F0" border = "0"> </large>
+<photos id = "images">
+
+<photo 
+path = "shift_1.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_1.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_2.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_2.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_3.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_3.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_4.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_4.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_5.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_5.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_6.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_6.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_7.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_7.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_8.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_8.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_9.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_9.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_10.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_10.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_11.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_11.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_12.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_12.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_13.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_13.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_14.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_14.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_15.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_15.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_16.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_16.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_17.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_17.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+<photo 
+path = "shift_18.jpg"
+width = "750"
+height = "500"
+thumbpath = "shift_18.jpg"
+thumbwidth = "50"
+thumbheight = "50">
+</photo>
+
+</photos>
+</gallery>

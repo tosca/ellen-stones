@@ -1,0 +1,7 @@
+<galleries> 
+<gallery base="combat/" file="photos.xml">
+    <sitename>combat</sitename>
+    <security><![CDATA[]]> </security>
+  </gallery>
+ 
+</galleries>

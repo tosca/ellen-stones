@@ -1,0 +1,11 @@
+<galleries> 
+<gallery base="combat/" file="photos.xml">
+    <sitename>combat</sitename>
+    <security><![CDATA[]]> </security>
+  </gallery>
+ <gallery base="shifting/" file="photos.xml">
+    <sitename>shifting</sitename>
+    <security><![CDATA[]]> </security>
+ </gallery>
+ 
+</galleries>

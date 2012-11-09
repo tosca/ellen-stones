@@ -10,11 +10,7 @@ namespace Web.Controllers
     {
         public ActionResult Index()
         {
-
-
             return File("index.html", "text/html");
-
-             
         }
 
         public ActionResult About()

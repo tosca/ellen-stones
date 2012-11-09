@@ -1,0 +1,7 @@
+<galleries> 
+ <gallery base="orange/" file="photos.xml">
+    <sitename>orange</sitename>
+    <security><![CDATA[]]> </security>
+ </gallery>
+ 
+</galleries>

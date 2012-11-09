@@ -1,0 +1,7 @@
+<galleries> 
+<gallery base="phenomenon/" file="photos.xml">
+    <sitename>phenomenon</sitename>
+    <security><![CDATA[]]> </security>
+  </gallery>
+  
+</galleries>

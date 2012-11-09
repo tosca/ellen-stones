@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" type="image/ico" href="http://nataliemacellaio.net/favicon.ico" />
+<title>Natalie Macellaio .(:. Silversmith . Brood</title>
+<meta name="description" content="Natallie Macellaio, Silversmith">
+<meta name="keywords" content="Natalie Macellaio, silversmith, silversmithing, metalsmith, metalsmithing, metalwork, jewelry, metals and jewelry, MFA, MFA metals ">
+<meta name="robots" content="all">
+<meta name="Author" content="Tosca Ragnini - www.toscatech.net">
+
+<link href="natalie.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="includes/xpath.js"></script>
+<script type="text/javascript" src="includes/SpryData.js"></script>
+<script type="text/javascript" src="includes/SpryEffects.js"></script>
+<script type="text/javascript">
+var dsGalleries = new Spry.Data.XMLDataSet("galleries/galleries16.xml", "galleries/gallery");
+var dsGallery = new Spry.Data.XMLDataSet("galleries/{dsGalleries::@base}{dsGalleries::@file}", "gallery");
+var dsPhotos = new Spry.Data.XMLDataSet("galleries/{dsGalleries::@base}{dsGalleries::@file}", "gallery/photos/photo");
+</script>
+<script src="gallery.js"  type="text/javascript"></script>
+
+</head>
+<body id="shifting">
+
+<div id="wrap">
+ 
+<div id="nav"><img src="images/natalie.jpg" alt="Natalie Macellaio" width="320" height="50" border="0" usemap="#Map" style="float:left"/>
+<map name="Map" id="Map"><area shape="rect" coords="0,3,320,50" href="index.html" alt="Natalie Macellaio - home page" /> </map>
+<br /><a href="artist.html">artist</a><a href="news.html">news</a><a href="links.html">links</a><a href="contact.html">contact</a>
+</div>
+
+
+ <div id="previews">
+ <div id="controls">
+   <div id="galleries" spry:region="dsGalleries"><span spry:repeatchildren="dsGalleries" spry:choose="choose" id="Span1" ><span spry:default="default"><span class="pick">{sitename}</span></span></span></div>
+     <ul id="transport">
+       <li><a href="#" onclick="StopSlideShow(); AdvanceToNextImage(true);" title="Previous">&lsaquo;</a></li>
+       <li class="pausebtn"><a href="#" onclick="if (gSlideShowOn) StopSlideShow(); else StartSlideShow();" title="Play/Pause" id="playLabel">Play</a></li>
+       <li><a href="#" onclick="StopSlideShow(); AdvanceToNextImage();" title="Next">&rsaquo;</a></li>
+     </ul>
+   </div>
+   <div id="thumbnails" spry:region="dsPhotos dsGalleries dsGallery">
+     <div spry:repeat="dsPhotos" onclick="HandleThumbnailClick('{ds_RowID}');" onmouseover="GrowThumbnail(this.getElementsByTagName('img')[0], '{@thumbwidth}', '{@thumbheight}');" onmouseout="ShrinkThumbnail(this.getElementsByTagName('img')[0]);"> <img id="tn{ds_RowID}" alt="thumbnail for {@thumbpath}" src="galleries/{dsGalleries::@base}{dsGallery::thumbnail/@base}{@thumbpath}" width="50" height="50" style="left: 0px; right: 0px;" /> </div>
+     <p class="ClearAll"></p>
+     </div>
+
+   
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="shifting.html">shifting</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="combat.html">combat</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bulge.html">bulge</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bump.html">bump</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="crack.html">crack</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="reach.html">reaching</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="orange.html">orange</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="phenomenon.html">phenomenon</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="reddot.html">red dot</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="hatch.html">hatch</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="walk.html">walk light</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="occupancy.html">occupancy</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="evolve.html">evolve</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="brood.html">brood</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bs.html">b.s.1.236</a><br />&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="city.html">every city has a Southside</a></h2>
+</div>
+ 
+ <div id="picture"><br /><br />
+   <div id="mainImageOutline" style="width: 0px; height: 0px;"><img id="mainImage" alt="main image" src=""/></div><br /><h1 id="albumName" style="text-align:left; padding-left:6em" spry:region="dsGallery">{sitename}<span class="return"><a href="../index.html"></a></span> <span class="source"><a href="source.html"></a></span></h1>
+   
+   <p></p>
+ </div>
+ <p class="clear"></p>
+</div>
+</body>
+</html>
+

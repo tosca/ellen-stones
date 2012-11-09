@@ -1,7 +1,0 @@
-<galleries> 
- <gallery base="hatch/" file="photos.xml">
-    <sitename>hatch</sitename>
-    <security><![CDATA[]]> </security>
- </gallery>
- 
-</galleries>

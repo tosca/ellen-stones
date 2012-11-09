@@ -1,0 +1,7 @@
+<galleries> 
+ <gallery base="reddot/" file="photos.xml">
+    <sitename>reddot</sitename>
+    <security><![CDATA[]]> </security>
+ </gallery>
+ 
+</galleries>

@@ -1,8 +1,0 @@
-<galleries> 
-<gallery base="occupancy/" file="photos.xml">
-    <sitename>occupancy</sitename>
-    <security><![CDATA[]]> </security>
-  </gallery>
- 
- 
-</galleries>

@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>@ViewBag.Title</title>         
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Natallie Macellaio is a Silversmith and Metal Artist creating and teaching near Dallas, Texas">
+        <meta name="keywords" content="Natalie Macellaio">
+        <meta name="author" content="tosca ragnini">
+        <link rel="shortcut icon" href="~/favicon.ico">
+        <link rel="icon" type="image/png" href="~/favicon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="~/images/touchicons/apple-touch-icon-57-precomposed">
+        <link rel="apple-touch-icon" sizes="114x114" href="~/assets/touchicons/apple-touch-icon-114-precomposed">
+        <link rel="apple-touch-icon" sizes="72x72" href="~/assets/touchicons/apple-touch-icon-72-precomposed">
+        <link rel="apple-touch-icon" sizes="144x144" href="~/assets/touchicons/apple-touch-icon-144-precomposed">
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+     <!--<link href="~/Content/bootstrap.css" rel="stylesheet">-->
+     <!--<link href="~/stylesheets/pace.preload.css" rel="stylesheet">-->
+        <link href="~/stylesheets/slimmenu.css" rel="stylesheet">
+        <link href="~/stylesheets/navmenu.css" rel="stylesheet"> 
+        <link href="~/stylesheets/isotope.css" rel="stylesheet">
+        <link href="~/stylesheets/intro02.css" rel="stylesheet">
+        <link href="~/stylesheets/venobox.css" rel="stylesheet">
+        <link href="~/stylesheets/jquery.bxslider.css" rel="stylesheet">            
+        <link href="~/stylesheets/main.css" rel="stylesheet">
+        <link href="~/stylesheets/main-responsive.css" rel="stylesheet">
+        <link href="~/stylesheets/main-retina.css" rel="stylesheet">
+        <link rel="~/stylesheet/less" type="text/css" href="less/color.less">
+        <link rel="~/stylesheet/less" type="text/css" href="less/fonts.less">
+        <script src="~/less/less-2.0.0.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700%7COpen+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+    </head>
+    <body class=" whitegray-bg">
+        <div class="sticky-panel sticky-panel-top white-bg"></div>
+        <div class="sticky-panel sticky-panel-right white-bg"></div>
+        <div class="sticky-panel sticky-panel-bottom white-bg"></div>
+        <header class="masthead visible-lg white-bg">
+            <div class="main-logo-wrap">
+                <a href="~/Index"><img alt="Natalie Macellaio - Artist, logo" title="Natalie Macellaio - Metal Artist, home page" src="~/images/logo.png" /></a>
+            </div>
+            <div class="main-nav">
+                <div class="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <a href="~/Index"><img alt="Natalie Macellaio - Artist, logo" title="Natalie Macellaio - Metal Artist, home page" class="side-logo" src="~/images/side-logo.png" /></a>
+                <div class="nav-bio">
+                    <h4><span class="color font1">Natalie Macellaio <br />ARTIST</span></h4>
+                </div>
+                <nav class="nav-item-wrap">
+                    <ul class="main-nav-menu main-nav-menu-effect">
+                        <li class="trigger-sub-nav">
+                            <a class="main-nav-link" href="~/Index">home</a>
+                        </li>
+                        <li class="trigger-sub-nav">
+                            <a class="main-nav-link" href="#">work</a>
+                            <div class="sub-nav">
+                                <a href="~/Scribbles">METAL BROOCHES</a>
+                                <a href="~/Kids-Rings">INTERACTIVE RINGS</a>
+                                <a href="~/Piercing-Pieces">A MEMORY</a>
+                                <a href="~/Resin-Balls">RESIN</a>
+                                <a href="~/Bump">RESIN PUSHING METAL</a>                               
+                                <a href="~/Cracks">SHIFTING</a>
+                                <a href="~/Occupancy">OCCUPANCY</a>
+                                <a href="~/Combat">COMBAT</a>
+                                <a href="~/Metal-Pods">METAL PODS</a>
+                            </div>
+                        </li>
+                        <li class="trigger-sub-nav">
+                            <a class="main-nav-link" href="#">collaborations</a>
+                            <div class="sub-nav">
+                                <a href="~/The-Mother-Load-Project">THE MOTHER LOAD PROJECT</a>
+                                <a href="~/Wannabe">WANNABEE</a>
+                                <a href="~/Petite-Show">PETITE SHOW</a>
+                                <a href="~/The-Merger">THE MERGER</a>
+                                <a href="~/Trestle-Designs">TRESTLE DESIGNS</a>
+                            </div>
+                        </li>
+                        <li class="trigger-sub-nav">
+                            <a class="main-nav-link" href="#">ABOUT</a>
+                            <div class="sub-nav">
+                                <a href="~/Index/#about">MY BIO</a>
+                                <a href="~/Index/#contact">CONTACT ME</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="social-wrap">
+                    <li><a href="#"><img alt="" title="" src="" /></a></li>
+                </ul>
+        </header>
+            <nav class="mobile-nav hidden-lg">
+            <ul class="slimmenu">
+                <li>
+                    <a class="sub-collapser" href="~/Index">home</a>
+                </li>
+                <li>
+                    <a class="sub-collapser" href="">work</a>
+                    <ul>
+                        <li><a class="font2 black ease" href="~/Scribbles">METAL BROOCHES</a></li>
+                        <li><a class="font2 black ease" href="~/Kids-Rings">INTERACTIVE RINGS</a></li>
+                        <li><a class="font2 black ease" href="~/Piercing-Pieces">A MEMORY</a></li>
+                        <li><a class="font2 black ease" href="~/Resin-Balls">RESIN</a></li>
+                        <li><a class="font2 black ease" href="~/Bump">RESIN PUSHING METAL</a></li>
+                        <li><a class="font2 black ease" href="~/Cracks">SHIFTING</a></li>
+                        <li><a class="font2 black ease" href="~/Occupancy">OCCUPANCY</a></li>
+                        <li><a class="font2 black ease" href="~/Combat">COMBAT</a></li>
+                        <li><a class="font2 black ease" href="~/Metal-Pods">METAL PODS</a></li>                        
+                     </ul>
+                </li>
+                <li>
+                    <a class="sub-collapser" href="">collaborations</a>
+                    <ul>
+                        <li><a class="font2 black ease" href="~/The-Mother-Load-Project">THE MOTHER LOAD PROJECT</a></li>
+                        <li><a class="font2 black ease" href="~/Wannabe">WANNABEE</a></li>
+                        <li><a class="font2 black ease" href="~/Petite-Show"</a></li>
+                        <li><a class="font2 black ease" href="~/The-Merger">THE MERGER</a></li>
+                        <li><a class="font2 black ease" href="~/Trestle-Designs">TRESTLE DESIGNS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="sub-collapser" href="">ABOUT</a>
+                    <ul>
+                        <li><a class="font2 black ease" href="#about">MY BIO</a></li>
+                        <li><a class="font2 black ease" href="#contact">CONTACT ME</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="mastwrap">          
+            @RenderBody()
+            <footer style="background-color:#61559f;">
+                <div class="add-top-quarter">
+                    <div class="float-right margin-20">
+                        <h6 class="softwhite">&copy; @DateTime.Now.Year - Natalie Macellaio - Artist</h6>
+                    </div>
+                </div>
+            </footer>
+        </div>
+      @Scripts.Render("~/bundles/jquery")
+      @Scripts.Render("~/bundles/jqueryui")
+        @Scripts.Render("~/bundles/jqueryval")
+      @Scripts.Render("~/bundles/bootstrap")
+      @RenderSection("scripts", required: false)
+     <!--  <script src="~/Scripts/jquery-1.10.2.js" type="text/javascript"></script>--> 
+        
+        <script src="~/javascripts/libs/jquery.easing.1.3.js" type="text/javascript"></script>
+       <!--  <script src="~/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+       <script src="~/javascripts/libs/pace.preload.min.js" type="text/javascript"></script> -->
+        <script src="~/javascripts/libs/retina.js" type="text/javascript"></script>
+        <script src="~/javascripts/libs/device.min.js" type="text/javascript"></script>
+        <script src="~/javascripts/libs/jquery.slimmenu.min.js" type="text/javascript"></script>
+        <script src="~/javascripts/libs/classie.js" type="text/javascript"></script>
+        <script src="~/javascripts/libs/jquery.touchSwipe.js" type="text/javascript"></script>
+        <script src="~/javascripts/libs/equalheights.js" type="text/javascript"></script>
+        <script src="~/javascripts/libs/isotope.js" type="text/javascript"></script>
+        <script src="~/javascripts/libs/venobox.min.js" type="text/javascript"></script>
+        <script src="~/javascripts/libs/jquery.bxslider.min.js" type="text/javascript"></script>
+        <script src="~/javascripts/custom/navmenu-init.js" type="text/javascript"></script>
+        <script src="~/javascripts/custom/equalheights-init.js" type="text/javascript"></script>
+        <script src="~/javascripts/custom/isotope-init.js" type="text/javascript"></script>
+        <script src="~/javascripts/custom/venobox-init.js" type="text/javascript"></script>
+        <script src="~/javascripts/custom/main.js" type="text/javascript"></script>
+        <script src="~/javascripts/custom/form-validation.js" type="text/javascript"></script>
+        <script>
+                $(document).ready(function () {
+                    $('.bxslider').bxSlider({
+                        preloadImages: 'visible',
+                        touchEnabled: true,
+                        responsive: true,
+                        pager: false,
+                        controls: true
+                    });
+                });
+        </script>
+        
+</body> 
+</html>

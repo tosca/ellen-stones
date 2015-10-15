@@ -13,16 +13,16 @@
         <link rel="apple-touch-icon" sizes="114x114" href="~/assets/touchicons/apple-touch-icon-114-precomposed">
         <link rel="apple-touch-icon" sizes="72x72" href="~/assets/touchicons/apple-touch-icon-72-precomposed">
         <link rel="apple-touch-icon" sizes="144x144" href="~/assets/touchicons/apple-touch-icon-144-precomposed">
-        @Styles.Render("~/Content/css")
         @Scripts.Render("~/bundles/modernizr")
-     <!--<link href="~/Content/bootstrap.css" rel="stylesheet">-->
-     <!--<link href="~/stylesheets/pace.preload.css" rel="stylesheet">-->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="~/stylesheets/pace.preload.css" rel="stylesheet">
         <link href="~/stylesheets/slimmenu.css" rel="stylesheet">
         <link href="~/stylesheets/navmenu.css" rel="stylesheet"> 
+        <link href="~/stylesheets/jquery.bxslider.css" rel="stylesheet"> 
         <link href="~/stylesheets/isotope.css" rel="stylesheet">
         <link href="~/stylesheets/intro02.css" rel="stylesheet">
         <link href="~/stylesheets/venobox.css" rel="stylesheet">
-        <link href="~/stylesheets/jquery.bxslider.css" rel="stylesheet">            
+                   
         <link href="~/stylesheets/main.css" rel="stylesheet">
         <link href="~/stylesheets/main-responsive.css" rel="stylesheet">
         <link href="~/stylesheets/main-retina.css" rel="stylesheet">
@@ -60,9 +60,9 @@
                             <div class="sub-nav">
                                 <a href="~/Scribbles">METAL BROOCHES</a>
                                 <a href="~/Kids-Rings">INTERACTIVE RINGS</a>
-                                <a href="~/Piercing-Pieces">A MEMORY</a>
                                 <a href="~/Resin-Balls">RESIN</a>
                                 <a href="~/Bump">RESIN PUSHING METAL</a>                               
+                                <a href="~/Piercing-Pieces">A MEMORY</a>
                                 <a href="~/Cracks">SHIFTING</a>
                                 <a href="~/Occupancy">OCCUPANCY</a>
                                 <a href="~/Combat">COMBAT</a>
@@ -80,11 +80,10 @@
                             </div>
                         </li>
                         <li class="trigger-sub-nav">
-                            <a class="main-nav-link" href="#">ABOUT</a>
-                            <div class="sub-nav">
-                                <a href="~/Index/#about">MY BIO</a>
-                                <a href="~/Index/#contact">CONTACT ME</a>
-                            </div>
+                            <a class="main-nav-link" href="~/Index#about">ABOUT</a>                           
+                        </li>
+                        <li class="trigger-sub-nav">
+                            <a class="main-nav-link" href="~/Index#contact">CONTACT</a>
                         </li>
                     </ul>
                 </nav>
@@ -102,10 +101,10 @@
                     <ul>
                         <li><a class="font2 black ease" href="~/Scribbles">METAL BROOCHES</a></li>
                         <li><a class="font2 black ease" href="~/Kids-Rings">INTERACTIVE RINGS</a></li>
-                        <li><a class="font2 black ease" href="~/Piercing-Pieces">A MEMORY</a></li>
-                        <li><a class="font2 black ease" href="~/Resin-Balls">RESIN</a></li>
+                       <li><a class="font2 black ease" href="~/Resin-Balls">RESIN</a></li>
                         <li><a class="font2 black ease" href="~/Bump">RESIN PUSHING METAL</a></li>
-                        <li><a class="font2 black ease" href="~/Cracks">SHIFTING</a></li>
+                        <li><a class="font2 black ease" href="~/Piercing-Pieces">A MEMORY</a>
+                        </li><li><a class="font2 black ease" href="~/Cracks">SHIFTING</a></li>
                         <li><a class="font2 black ease" href="~/Occupancy">OCCUPANCY</a></li>
                         <li><a class="font2 black ease" href="~/Combat">COMBAT</a></li>
                         <li><a class="font2 black ease" href="~/Metal-Pods">METAL PODS</a></li>                        
@@ -116,21 +115,20 @@
                     <ul>
                         <li><a class="font2 black ease" href="~/The-Mother-Load-Project">THE MOTHER LOAD PROJECT</a></li>
                         <li><a class="font2 black ease" href="~/Wannabe">WANNABEE</a></li>
-                        <li><a class="font2 black ease" href="~/Petite-Show"</a></li>
+                        <li><a class="font2 black ease" href="~/Petite-Show"></a></li>
                         <li><a class="font2 black ease" href="~/The-Merger">THE MERGER</a></li>
                         <li><a class="font2 black ease" href="~/Trestle-Designs">TRESTLE DESIGNS</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a class="sub-collapser" href="">ABOUT</a>
-                    <ul>
-                        <li><a class="font2 black ease" href="#about">MY BIO</a></li>
-                        <li><a class="font2 black ease" href="#contact">CONTACT ME</a></li>
-                    </ul>
+                    <a href="~/Index#about">ABOUT</a>    
                 </li>
+                <li>
+                    <a href="~/Index#contact">CONTACT</a>
+                 </li>
             </ul>
         </nav>
-        <div class="mastwrap">          
+    <!--    <div class="mastwrap">  -->        
             @RenderBody()
             <footer style="background-color:#61559f;">
                 <div class="add-top-quarter">
@@ -139,7 +137,7 @@
                     </div>
                 </div>
             </footer>
-        </div>
+    <!---   </div>--> 
       @Scripts.Render("~/bundles/jquery")
       @Scripts.Render("~/bundles/jqueryui")
         @Scripts.Render("~/bundles/jqueryval")

@@ -636,14 +636,6 @@
     <Content Include="javascripts\libs\waypoints.min.js" />
     <Content Include="javascripts\libs\wow.js" />
     <Content Include="less\less-1.7.3.min.js" />
-    <Content Include="Mail\mail.php" />
-    <Content Include="Mail\mime.php" />
-    <Content Include="Mail\mimeDecode.php" />
-    <Content Include="Mail\mimePart.php" />
-    <Content Include="Mail\null.php" />
-    <Content Include="Mail\RFC822.php" />
-    <Content Include="Mail\sendmail.php" />
-    <Content Include="Mail\smtp.php" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

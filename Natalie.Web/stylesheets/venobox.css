@@ -300,7 +300,6 @@ body{
 @media (max-width: 767px) {
     .venoframe{
         width: 420px;
-        height: 315px;
         height: 600px;
     }
 }

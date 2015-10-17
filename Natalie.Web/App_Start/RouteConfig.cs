@@ -150,15 +150,21 @@ namespace Sandbox
                );
 
             routes.MapRoute(
+               "home",
+               "home",
+               new { controller = "Home", action = "Index#home" }
+               );
+
+            routes.MapRoute(
                "about",
                "about",
-               new { controller = "Home", action = "Index/#about" }
+               new { controller = "Home", action = "Index#about" }
                );
 
             routes.MapRoute(
                "contact",
                "contact",
-               new { controller = "Home", action = "Index/#contact" }
+               new { controller = "Home", action = "Index#contact" }
                );
 
             routes.MapRoute(

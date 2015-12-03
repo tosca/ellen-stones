@@ -680,7 +680,9 @@
     <Content Include="twitter\jquery.tweet.min.js" />
     <Content Include="twitter\lib\tmhOAuth.php" />
     <Content Include="twitter\lib\tmhUtilities.php" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

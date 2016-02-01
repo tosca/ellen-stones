@@ -182,7 +182,7 @@ namespace Sandbox.Controllers
                                  ParameterType.UrlSegment);
             request.Resource = "{domain}/messages";
             request.AddParameter("from", "Natalie Macellaio - inquiry <mailgun@mailgun.org>");
-            request.AddParameter("to", "tosca.ragnini@gmail.com, nataliemacellaio@gmail.com");
+            request.AddParameter("to", "tosca.ragnini@gmail.com");
             request.AddParameter("subject", "Natalie Macellaio - Contact Request");
             request.AddParameter("text", "FullName : " + fullName);
             request.AddParameter("text", "ContactEmail : " + contactEmail);

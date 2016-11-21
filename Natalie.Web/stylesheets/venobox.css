@@ -267,23 +267,20 @@ body{
     line-height: 39px;
     font-size: 32px;
     padding: 12px 10px;
-   /* background: #fff;*/
+   background: none;
     display: none;
     font-weight: 200;
 }
 /* ------- inline window ------ */
 .vbox-inline{
-    width: 100%;
+    width: 420px;
     height: 315px;
-    
-    height: 450px; /*tosca*/
-    height: auto;
-    height: 100%;
     padding: 10px;
     background: #fff;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
-  /*  overflow: auto;*/
+    overflow: auto;
+
 }
 /* ------- Video & iFrames window ------ */
 .venoframe{

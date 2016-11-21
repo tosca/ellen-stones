@@ -27,10 +27,6 @@ p{
 	font-size: 16px;
 	line-height:1.7em;
 }
-/*h1,h2,h3,h4,h5,h6{
-	margin-top: 0;
-	font-weight: normal;
-}*/
 
 .last-page {
     z-index:3000;
@@ -272,15 +268,6 @@ p{
     -webkit-transition: all .4s ease-in-out;
         -ms-transition: all .4s ease-in-out;
             transition: all .4s ease-in-out;
-}
-.credit-text{
-	margin-top: 20px;
-	margin-right: 100px;
-	margin-left: 80px;
-}
-.credit-text p{
-	font-size: 12px;
-	line-height: 19px;
 }
 .sub-heading{
 	/*font-size: 18px;
@@ -538,7 +525,7 @@ p{
                     transition: all .4s ease-in-out;
         }
         .zoom a:hover{
-            cursor: url("../images/zoom.png") 40 40, crosshair;
+            cursor: url("../images/cursor-sq-plus.png") 40 40, crosshair;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
                 -ms-transition: all .4s ease-in-out;
@@ -563,7 +550,7 @@ p{
             padding: 7px;
         }
 .showcase-single-item-wrap{
-	padding: 20px;
+	/*padding: 20px;*/
 }
  .showcase-single-item h2{ 
  	font-size: 24px;
@@ -627,7 +614,7 @@ p{
 .showcase-single-item-inner h4 {
      text-transform: uppercase;
          letter-spacing: 2px;
-         font-size: 16px;
+     /*   font-size: 16px;*/ 
 }
 .showcase-single-item-inner h3 {
      text-transform: uppercase;
@@ -652,7 +639,7 @@ p{
 
 /*.showcase-thumb-strip:hover{		
     opacity: 0.4;
-            cursor: url("../images/zoom.png") 40 40, crosshair;
+            cursor: url("../images/cursor-sq-plus.png") 40 40, crosshair;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
                 -ms-transition: all .4s ease-in-out;

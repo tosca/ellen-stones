@@ -43,7 +43,7 @@ p{
 	padding: 80px 0;
 }
 .add-top{
-	margin-top: 120px;
+	margin-top: 120px !important;
 }
 .add-bottom{
 	margin-bottom: 120px;
@@ -550,7 +550,7 @@ p{
             padding: 7px;
         }
 .showcase-single-item-wrap{
-	/*padding: 20px;*/
+	padding: 20px !important;
 }
  .showcase-single-item h2{ 
  	font-size: 24px;

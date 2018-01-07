@@ -30,6 +30,12 @@ namespace Sandbox
                );
 
             routes.MapRoute(
+              "Construction",
+              "Construction",
+              new { controller = "Home", action = "Construction" }
+              );
+
+            routes.MapRoute(
                "Kids-Rings",
                "Kids-Rings",
                new { controller = "Home", action = "KidsRings" }

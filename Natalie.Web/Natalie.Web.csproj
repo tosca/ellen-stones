@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -328,6 +329,16 @@
     <Content Include="images\combat\walklight-03.jpg" />
     <Content Include="images\combat\walklight-04%402x.jpg" />
     <Content Include="images\combat\walklight-04.jpg" />
+    <Content Include="images\construct\construct-01%402x.jpg" />
+    <Content Include="images\construct\construct-01.jpg" />
+    <Content Include="images\construct\construct-02%402x.jpg" />
+    <Content Include="images\construct\construct-02.jpg" />
+    <Content Include="images\construct\construct-03%402x.jpg" />
+    <Content Include="images\construct\construct-03.jpg" />
+    <Content Include="images\construct\construct-04%402x.jpg" />
+    <Content Include="images\construct\construct-04.jpg" />
+    <Content Include="images\construct\construct-05%402x.jpg" />
+    <Content Include="images\construct\construct-05.jpg" />
     <Content Include="images\cracks\cracks-01%402x.jpg" />
     <Content Include="images\cracks\cracks-01.jpg" />
     <Content Include="images\cracks\cracks-02%402x.jpg" />
@@ -406,6 +417,14 @@
     <Content Include="images\piercing\traveling-02.jpg" />
     <Content Include="images\piercing\traveling-03%402x.jpg" />
     <Content Include="images\piercing\traveling-03.jpg" />
+    <Content Include="images\scribbles\scrib-10%402x.jpg" />
+    <Content Include="images\scribbles\scrib-10.jpg" />
+    <Content Include="images\scribbles\scrib-11%402x.jpg" />
+    <Content Include="images\scribbles\scrib-11.jpg" />
+    <Content Include="images\scribbles\scrib-12%402x.jpg" />
+    <Content Include="images\scribbles\scrib-12.jpg" />
+    <Content Include="images\scribbles\scrib-13%402x.jpg" />
+    <Content Include="images\scribbles\scrib-13.jpg" />
     <Content Include="images\touchicon\apple-touch-icon-114-precomposed.png" />
     <Content Include="images\touchicon\apple-touch-icon-144-precomposed.png" />
     <Content Include="images\touchicon\apple-touch-icon-57-precomposed.png" />
@@ -714,6 +733,7 @@
     <Content Include="Views\Home\TheMerger.cshtml" />
     <Content Include="Views\Home\TrestleDesigns.cshtml" />
     <Content Include="Views\Home\MetalPods.cshtml" />
+    <Content Include="Views\Home\Construction.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

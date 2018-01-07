@@ -20,6 +20,10 @@ namespace Sandbox.Controllers
         {
            return View();
         }
+        public ActionResult Construction()
+        {
+            return View();
+        }
         public ActionResult KidsRings()
         {
 

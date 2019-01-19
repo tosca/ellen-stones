@@ -266,7 +266,6 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="favicon.png" />
-    <Content Include="featured-scribble.html" />
     <Content Include="featured-single.html" />
     <Content Include="Global.asax" />
     <Content Include="bootstrap\css\bootstrap-theme.css.map" />
@@ -306,7 +305,7 @@
     <Content Include="images\bxslider\next.png" />
     <Content Include="images\bxslider\prev%402x.png" />
     <Content Include="images\bxslider\prev.png" />
-    <Content Include="images\bx_loader.gif" />
+    <Content Include="images\loader.gif" />
     <Content Include="images\combat\combat-01%402x.jpg" />
     <Content Include="images\combat\combat-01.jpg" />
     <Content Include="images\combat\combat-02%402x.jpg" />

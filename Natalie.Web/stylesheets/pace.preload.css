@@ -20,8 +20,8 @@
 }
     .pace .pace-activity:before {
         content: '';
-        background-color: #61559F;
-        background-image: url('../images/loader.gif');
+      /*  background-color: #61559F;*/
+        background-image: url('../images/logo.png');
         background-repeat: no-repeat;
         background-position: center center;
         display: block;

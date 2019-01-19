@@ -16,12 +16,11 @@ namespace Sandbox
             routes.IgnoreRoute("{folder}/{*pathInfo}", new { folder = "Content" });
 
             
-
-            routes.MapRoute(
+           routes.MapRoute(
                "Index",
                "Index",
                new { controller = "Home", action = "Index" }
-               );
+              );
 
             routes.MapRoute(
                "Scribbles",
@@ -178,6 +177,8 @@ namespace Sandbox
                "{controller}/{action}/{id}",
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+       
         }
     }
 }

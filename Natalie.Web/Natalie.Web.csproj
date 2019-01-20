@@ -313,6 +313,14 @@
     <Content Include="images\construct\construct-15.jpg" />
     <Content Include="images\construct\construct-16%402x.jpg" />
     <Content Include="images\construct\construct-16.jpg" />
+    <Content Include="images\construct\construct-17%402x.jpg" />
+    <Content Include="images\construct\construct-17.jpg" />
+    <Content Include="images\construct\construct-18%402x.jpg" />
+    <Content Include="images\construct\construct-18.jpg" />
+    <Content Include="images\construct\construct-19%402x.jpg" />
+    <Content Include="images\construct\construct-19.jpg" />
+    <Content Include="images\construct\construct-20%402x.jpg" />
+    <Content Include="images\construct\construct-20.jpg" />
     <Content Include="images\loader.gif" />
     <Content Include="images\combat\combat-01%402x.jpg" />
     <Content Include="images\combat\combat-01.jpg" />
@@ -448,8 +456,8 @@
     <Content Include="images\touchicon\apple-touch-icon-72-precomposed.png" />
     <Content Include="images\kidsrings\kring-01%402x.jpg" />
     <Content Include="images\kidsrings\kring-01.jpg" />
-    <Content Include="images\kidsrings\kring-02%402x.jpg" />
-    <Content Include="images\kidsrings\kring-02.jpg" />
+    <Content Include="images\kidsrings\kring-06%402x.jpg" />
+    <Content Include="images\kidsrings\kring-06.jpg" />
     <Content Include="images\kidsrings\kring-03%402x.jpg" />
     <Content Include="images\kidsrings\kring-03.jpg" />
     <Content Include="images\kidsrings\kring-04%402x.jpg" />
@@ -525,10 +533,6 @@
     <Content Include="images\petite\petite-04.jpg" />
     <Content Include="images\piercing\piercing-01%402x.jpg" />
     <Content Include="images\piercing\piercing-01.jpg" />
-    <Content Include="images\piercing\piercing-02%402x.jpg" />
-    <Content Include="images\piercing\piercing-02.jpg" />
-    <Content Include="images\piercing\piercing-03%402x.jpg" />
-    <Content Include="images\piercing\piercing-03.jpg" />
     <Content Include="images\piercing\piercing-04%402x.jpg" />
     <Content Include="images\piercing\piercing-04.jpg" />
     <Content Include="images\piercing\piercing-05%402x.jpg" />

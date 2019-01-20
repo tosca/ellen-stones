@@ -166,7 +166,7 @@
     <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Data.Edm.5.2.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
-    </Reference> 
+    </Reference>
     <Reference Include="System.Spatial, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
@@ -301,6 +301,18 @@
     <Content Include="images\bxslider\next.png" />
     <Content Include="images\bxslider\prev%402x.png" />
     <Content Include="images\bxslider\prev.png" />
+    <Content Include="images\construct\construct-11%402x.jpg" />
+    <Content Include="images\construct\construct-11.jpg" />
+    <Content Include="images\construct\construct-12%402x.jpg" />
+    <Content Include="images\construct\construct-12.jpg" />
+    <Content Include="images\construct\construct-13%402x.jpg" />
+    <Content Include="images\construct\construct-13.jpg" />
+    <Content Include="images\construct\construct-14%402x.jpg" />
+    <Content Include="images\construct\construct-14.jpg" />
+    <Content Include="images\construct\construct-15%402x.jpg" />
+    <Content Include="images\construct\construct-15.jpg" />
+    <Content Include="images\construct\construct-16%402x.jpg" />
+    <Content Include="images\construct\construct-16.jpg" />
     <Content Include="images\loader.gif" />
     <Content Include="images\combat\combat-01%402x.jpg" />
     <Content Include="images\combat\combat-01.jpg" />

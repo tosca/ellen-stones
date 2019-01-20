@@ -9,12 +9,10 @@ a:focus { outline: none;
 }
 .ease{
 	-webkit-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }
 .ease:hover{
 	-webkit-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }
 .text-center > .img-responsive{
@@ -142,19 +140,16 @@ p{
     background-color: rgba(243, 243, 243, 0.9);
 	background-size: cover;
 	-webkit-transition: all 1.2s ease-in-out;
-		-ms-transition: all 1.2s ease-in-out;
 			transition: all 1.2s ease-in-out;
 }
 .masthead.revealed{
 	left: 0px;
 	-webkit-transition: all 0.5s ease-in-out;
-		-ms-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 }
 .masthead.revealed .main-logo-wrap{
 	top: -150px;
 	-webkit-transition: all 1.5s ease-in-out;
-		-ms-transition: all 1.5s ease-in-out;
 			transition: all 1.5s ease-in-out;
 }
 .main-logo-wrap{
@@ -162,7 +157,6 @@ p{
 	right: 15px;
 	top: 20px;
 	-webkit-transition: all 1.5s ease-in-out;
-		-ms-transition: all 1.5s ease-in-out;
 			transition: all 1.5s ease-in-out;
 }
 .side-logo{
@@ -209,12 +203,10 @@ p{
      text-decoration: none;
      text-transform: uppercase;
     -webkit-transition: all .8s linear;
-        -ms-transition: all .8s linear;
             transition: all .8s linear;
 }
 .main-nav-menu li a.main-nav-link:hover{
     -webkit-transition: all .8s linear;
-        -ms-transition: all .8s linear;
             transition: all .8s linear;
 }
 .sub-nav{
@@ -229,12 +221,10 @@ p{
      letter-spacing: 0px;
      text-decoration: none;
 	-webkit-transition: all 0.5s ease-in-out;
-		-ms-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 }
 .sub-nav a:hover{
 	-webkit-transition: all 0.5s ease-in-out;
-		-ms-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 }
 .sub-nav a:after{
@@ -277,61 +267,7 @@ p{
 	font-weight: 300;
 	margin-bottom: 10px;
 }
-.btn-eight{
-	border-radius: 0px;
-	text-decoration: none;
-	padding: 10px 20px;
-	font-size: 12px;
-	line-height: 19px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	-webkit-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
-			transition: all .4s ease-in-out;
-}
-.btn-eight-big{
-	border-radius: 0px;
-	text-decoration: none;
-	padding: 15px 20px;
-	font-size: 18px;
-	line-height: 25px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	-webkit-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
-			transition: all .4s ease-in-out;
-}
-.btn-eight:hover{
-	-webkit-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
-			transition: all .4s ease-in-out;
-}
-.btn-eight-white{
-	border:solid 1px #fff;
-	background: transparent;
-	color: #fff;
-}
-.btn-eight-white:hover{
-	border:solid 1px #fff;
-	background: #fff;
-	color: #000;
-}
-.btn-eight-dark{
-	border:solid 2px #000;
-	background: transparent;
-	color: #000;
-}
-.btn-eight-dark:hover{
-	border:solid 2px #000;
-	background: #000;
-	color: #fff;
-}
-.btn-eight-color{
-	background: transparent;
-}
-.btn-eight-color:hover{
-	color: #fff;
-}
+
 .showcase-01{
 	background-image: url('http://placehold.it/2000x1250');
 }
@@ -348,7 +284,6 @@ p{
 	cursor: url("../images/drag.png") 40 40, crosshair;
     -webkit-transition: all .4s ease-in-out;
        -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
          -o-transition: all .4s ease-in-out;
             transition: all .4s ease-in-out;
 }
@@ -365,7 +300,6 @@ p{
 	background-color: rgba(0,0,0,0.8);
 	-webkit-transition: all 1s ease-in-out;
 	   -moz-transition: all 1s ease-in-out;
-		-ms-transition: all 1s ease-in-out;
 		 -o-transition: all 1s ease-in-out;
 			transition: all 1s ease-in-out;
 }
@@ -373,7 +307,6 @@ p{
 	opacity: 1;
 	-webkit-transition: all 1s ease-in-out;
 	   -moz-transition: all 1s ease-in-out;
-		-ms-transition: all 1s ease-in-out;
 		 -o-transition: all 1s ease-in-out;
 			transition: all 1s ease-in-out;
 }
@@ -381,7 +314,6 @@ p{
 	cursor: url("../images/view.png") 40 40, crosshair;
     -webkit-transition: all .4s ease-in-out;
        -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
          -o-transition: all .4s ease-in-out;
             transition: all .4s ease-in-out;
 }
@@ -444,7 +376,6 @@ p{
     display: inline-block;
     -webkit-transition: all .8s ease-in-out;
        -moz-transition: all .8s ease-in-out;
-        -ms-transition: all .8s ease-in-out;
          -o-transition: all .8s ease-in-out;
             transition: all .8s ease-in-out;
 }
@@ -625,28 +556,9 @@ p{
      justify-content:center;       
     -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
 }
-/*.showcase-thumb-strip a {
-    -webkit-transition: all .4s ease-in-out;
-               -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
-                 -o-transition: all .4s ease-in-out;
-                    transition: all 0.4s ease-in-out 0s;
-}*/
-
-/*.showcase-thumb-strip:hover{		
-    opacity: 0.4;
-            cursor: url("../images/cursor-sq-plus.png") 40 40, crosshair;
-            -webkit-transition: all .4s ease-in-out;
-               -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
-                 -o-transition: all .4s ease-in-out;
-                    transition: all .4s ease-in-out;
-}*/
-
 .showcase-thumb-strip-inner {
     padding: 0 0 15px 0;
     margin-top: -10px;
@@ -654,18 +566,18 @@ p{
 } 
         .showcase-thumb-strip-inner h3{
             opacity: 1; 
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 400;
             letter-spacing: 2px;
             line-height: 21px;
             text-transform: uppercase;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         .showcase-thumb-strip-inner p > span{  
             opacity: 1;
-            font-size: 17px;
-            font-weight: 200;
-            line-height: 21px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
             padding: 7px;
         }
 .contact-bg{
@@ -725,7 +637,6 @@ input {
     width: 100%;
     -webkit-transition: all .8s linear;
        -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
          -o-transition: all .8s linear;
             transition: all .8s linear;
 }
@@ -735,7 +646,6 @@ input:focus, textarea:focus {
     background: #f2f2f2 !important;
     -webkit-transition: all .8s linear;
        -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
          -o-transition: all .8s linear;
             transition: all .8s linear;
 }

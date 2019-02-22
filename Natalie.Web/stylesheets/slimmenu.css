@@ -48,11 +48,11 @@
 }
 .collapse-button:hover, .collapse-button:focus {
     background-image: none;
-    background-color: #eee;
-    color: #000;
+  /*  background-color: #eee;*/
+    color: #CCC;
 }
 .collapse-button .icon-bar {
-    background-color: #000;
+   background-color: #FFF;
     border-radius: 1px 1px 1px 1px;
     display: block;
     height: 2px;

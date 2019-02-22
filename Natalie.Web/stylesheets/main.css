@@ -154,7 +154,7 @@ p{
 }
 .main-logo-wrap{
 	position: absolute;
-	right: 15px;
+	right: 0px;
 	top: 20px;
 	-webkit-transition: all 1.5s ease-in-out;
 			transition: all 1.5s ease-in-out;
@@ -730,22 +730,7 @@ fieldset h1 {
 .space-left{
     margin-left: 1%;
 }
-.alert{
-    margin-top: 0px;
-    border-radius: 0px;
-    padding: 0px;
-    -webkit-transition: all .8s linear;
-       -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
-         -o-transition: all .8s linear;
-            transition: all .8s linear;
-}
-.alert > p{
-    padding: 5px;
-    text-shadow:none;
-    font-size: 14px;
-    line-height: 21px;
-}
+
 a {
     color: #8393ca;
 }

@@ -134,12 +134,16 @@ namespace Sandbox.Controllers
 
             return View();
         }
+        public ActionResult Shop()
+        {
+
+            return View();
+        }
 
 
-      
- 
-       
-    [HttpGet]
+
+
+        [HttpGet]
         public ActionResult Contact()
         { 
             ViewBag.Message = "Your contact page.";

@@ -27,9 +27,9 @@ namespace Sandbox
                       "~/Scripts/respond.js"));
 
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                        "~/Content/bootstrap.min.css",
-                        "~/Content/site.css"));
+           // bundles.Add(new StyleBundle("~/Content/css").Include(
+                     //   "~/Content/bootstrap.min.css",
+                      //  "~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",

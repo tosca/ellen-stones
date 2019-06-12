@@ -64,8 +64,13 @@ ul.slimmenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 30%;
 }
+/*iPhone 6Plus Landscape Mode*/
+@media screen and (max-width: 736px){ 
+    ul.slimmenu {
+         width: 100%;
+}}
 ul.slimmenu li {
     position: relative;
     display: inline-block;

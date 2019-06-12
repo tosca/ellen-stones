@@ -67,6 +67,9 @@ p{
 .pad-bottom{
 	padding-bottom: 120px;
 }
+.pad-bottom-sm {
+    padding-bottom: 40px;
+}
 .pad{
 	padding-left: 20px;
 	padding-right: 20px;
@@ -543,9 +546,8 @@ p{
 	padding: 3px;
 }
 .showcase-single-item-inner h4 {
-     text-transform: uppercase;
-         letter-spacing: 2px;
-     /*   font-size: 16px;*/ 
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .showcase-single-item-inner h3 {
      text-transform: uppercase;
@@ -573,6 +575,15 @@ p{
             text-transform: uppercase;
             margin-bottom: 20px;
         }
+    .showcase-thumb-strip-inner h4 {
+        opacity: 1;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        line-height: 16px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
         .showcase-thumb-strip-inner p > span{  
             opacity: 1;
             font-size: 14px;
@@ -580,10 +591,34 @@ p{
             line-height: 18px;
             padding: 7px;
         }
-.contact-bg{
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+
+.shop {
+ /* border:1px solid #61559F;*/ 
+}
+    .shop img {
+        margin-top: 2px;
+        padding: 16px;
+       /* border: 1px solid #ccc;*/
+    }
+    .shop .showcase-thumb-strip-inner {
+        border: 1px solid #ccc;
+        padding: 4px;
+    }   
+    .clear-fix {
+        overflow: auto;
+        clear: both;
+    }
+    .shop .pay-opts{
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+.contact-bg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 .contact .promo-caps{
 	font-size: 20px;
@@ -664,8 +699,7 @@ textarea {
     resize: none;
     width: 100%;
     -webkit-transition: all .8s linear;
-       -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
+       -moz-transition: all .8s linear; 
          -o-transition: all .8s linear;
             transition: all .8s linear;
 }

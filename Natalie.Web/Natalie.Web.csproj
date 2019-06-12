@@ -412,7 +412,6 @@
     <Content Include="images\links\links-04.jpg" />
     <Content Include="images\logo%402x.png" />
     <Content Include="images\logo.png" />
-    <Content Include="images\logo.svg" />
     <Content Include="images\merger\merger-01%402x.jpg" />
     <Content Include="images\merger\merger-01.jpg" />
     <Content Include="images\merger\merger-02%402x.jpg" />
@@ -511,8 +510,12 @@
     <Content Include="images\scribbles\scrib-08.jpg" />
     <Content Include="images\scribbles\scrib-09%402x.jpg" />
     <Content Include="images\scribbles\scrib-09.jpg" />
-    <Content Include="images\side-logo%402x.png" />
-    <Content Include="images\side-logo.png" />
+    <Content Include="nm-new-logo%402x.png" />
+    <Content Include="nm-new-logo.png" />
+    <Content Include="nm-newer-logo%402x.png" />
+    <Content Include="nm-newer-logo.png" />
+    <Content Include="side-logo%402x.png" />
+    <Content Include="side-logo.png" />
     <Content Include="images\social\01%402x.png" />
     <Content Include="images\social\01.png" />
     <Content Include="images\trestle\trestle-01%402x.jpg" />
@@ -637,6 +640,7 @@
     <Content Include="Views\Home\TrestleDesigns.cshtml" />
     <Content Include="Views\Home\MetalPods.cshtml" />
     <Content Include="Views\Home\Construction.cshtml" />
+    <Content Include="Views\Home\Shop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

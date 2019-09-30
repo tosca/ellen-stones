@@ -10,7 +10,7 @@
 .menu-collapser {
     position: relative;
     background-color: #61559F;
-    color: #fff;
+  /*  color: #fff;*/
     width: 100%;
     height: 48px;
     line-height: 48px;
@@ -64,7 +64,8 @@ ul.slimmenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 30%;
+    width: 20%;
+    float: right;
 }
 /*iPhone 6Plus Landscape Mode*/
 @media screen and (max-width: 736px){ 

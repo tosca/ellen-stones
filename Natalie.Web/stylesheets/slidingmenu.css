@@ -20,7 +20,7 @@
 	height: 100%;
 }
 .menu h1.sm-logo{
-	font-family: 'Montserrat', sans-serif; font-weight: 700;
+	font-family: 'Montserrat', sans-serif; font-weight: 400;
 	font-size: 24px;
 	letter-spacing: 0.15em;
 	line-height: 40px;
@@ -44,8 +44,7 @@
 	background:rgba(0,0,0,0);
 	padding: 10px 20px;
 	-webkit-transition: all .4s ease-in-out;
-	   -moz-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out
 		 -o-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }
@@ -54,7 +53,6 @@
 	color: #ffffff;
 	-webkit-transition: all .4s ease-in-out;
 	   -moz-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
 		 -o-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }
@@ -74,7 +72,6 @@
 	right: 5px;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
-		-ms-transition: all .1s ease-in-out;
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }
@@ -83,7 +80,6 @@
 	color: #ffffff;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
-		-ms-transition: all .1s ease-in-out;
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }
@@ -103,7 +99,6 @@
 .sliding {
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
-		-ms-transition: all .3s ease;
 		 -o-transition: all .3s ease;
 			transition: all .3s ease;
 }
@@ -124,7 +119,6 @@
 	background: rgba(0,0,0,0.3) url('../images/menu.png') center center;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
-		-ms-transition: all .1s ease-in-out;
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }
@@ -134,7 +128,6 @@
 	background: rgba(0,0,0,0.9) url('../images/menu.png') center center;
 	-webkit-transition: all .1s ease-in-out;
 	   -moz-transition: all .1s ease-in-out;
-		-ms-transition: all .1s ease-in-out;
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }

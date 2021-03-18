@@ -240,6 +240,7 @@
     <Content Include="images\bxslider\next.png" />
     <Content Include="images\bxslider\prev%402x.png" />
     <Content Include="images\bxslider\prev.png" />
+    <Content Include="images\bx_loader.gif" />
     <Content Include="images\construct\construct-11%402x.jpg" />
     <Content Include="images\construct\construct-11.jpg" />
     <Content Include="images\construct\construct-12%402x.jpg" />
@@ -586,9 +587,9 @@
     <Content Include="stylesheets\isotope.css" />
     <Content Include="stylesheets\jquery.bxslider.css" />
     <Content Include="stylesheets\main-responsive.css" />
-    <Content Include="stylesheets\main-retina.css" />
     <Content Include="stylesheets\main.css" />
     <Content Include="stylesheets\navmenu.css" />
+    <Content Include="stylesheets\slidingmenu.css" />
     <Content Include="stylesheets\slimmenu.css" />
     <Content Include="stylesheets\venobox.css" />
     <Content Include="Web.config">

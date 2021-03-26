@@ -264,27 +264,15 @@
     <Content Include="images\links\links-05%402x.jpg" />
     <Content Include="images\links\links-05.jpg" />
     <Content Include="images\loader.gif" />
-    <Content Include="images\combat\combat-01%402x.jpg" />
     <Content Include="images\combat\combat-01.jpg" />
-    <Content Include="images\combat\combat-02%402x.jpg" />
     <Content Include="images\combat\combat-02.jpg" />
-    <Content Include="images\combat\combat-03%402x.jpg" />
     <Content Include="images\combat\combat-03.jpg" />
-    <Content Include="images\combat\combat-04%402x.jpg" />
     <Content Include="images\combat\combat-04.jpg" />
-    <Content Include="images\combat\combat-05%402x.jpg" />
     <Content Include="images\combat\combat-05.jpg" />
-    <Content Include="images\combat\combat-06%402x.jpg" />
     <Content Include="images\combat\combat-06.jpg" />
-    <Content Include="images\combat\combat-07%402x.jpg" />
     <Content Include="images\combat\combat-07.jpg" />
-    <Content Include="images\combat\walklight-01%402x.jpg" />
     <Content Include="images\combat\walklight-01.jpg" />
-    <Content Include="images\combat\walklight-02%402x.jpg" />
-    <Content Include="images\combat\walklight-02.jpg" />
-    <Content Include="images\combat\walklight-03%402x.jpg" />
     <Content Include="images\combat\walklight-03.jpg" />
-    <Content Include="images\combat\walklight-04%402x.jpg" />
     <Content Include="images\combat\walklight-04.jpg" />
     <Content Include="images\construct\construct-01%402x.jpg" />
     <Content Include="images\construct\construct-01.jpg" />
@@ -363,7 +351,7 @@
     <Content Include="images\motherload\motherload-08.jpg" />
     <Content Include="images\motherload\motherload-09%402x.jpg" />
     <Content Include="images\motherload\motherload-09.jpg" />
-    <Content Include="images\nm-logo%402x.png" />
+    <Content Include="images\nm-logo.png" />
     <Content Include="images\piercing\traveling-01%402x.jpg" />
     <Content Include="images\piercing\traveling-01.jpg" />
     <Content Include="images\piercing\traveling-02%402x.jpg" />
@@ -396,7 +384,6 @@
     <Content Include="images\links\links-03.jpg" />
     <Content Include="images\links\links-04%402x.jpg" />
     <Content Include="images\links\links-04.jpg" />
-    <Content Include="images\logo%402x.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\merger\merger-01%402x.jpg" />
     <Content Include="images\merger\merger-01.jpg" />
@@ -416,21 +403,13 @@
     <Content Include="images\motherload\motherload-logo.jpg" />
     <Content Include="images\newwork\pump%402x.jpg" />
     <Content Include="images\newwork\pump.jpg" />
-    <Content Include="images\occupy\occupancy-01%402x.jpg" />
     <Content Include="images\occupy\occupancy-01.jpg" />
-    <Content Include="images\occupy\occupancy-02%402x.jpg" />
     <Content Include="images\occupy\occupancy-02.jpg" />
-    <Content Include="images\occupy\occupancy-03%402x.jpg" />
     <Content Include="images\occupy\occupancy-03.jpg" />
-    <Content Include="images\occupy\occupancy-04%402x.jpg" />
     <Content Include="images\occupy\occupancy-04.jpg" />
-    <Content Include="images\occupy\occupancy-05%402x.jpg" />
     <Content Include="images\occupy\occupancy-05.jpg" />
-    <Content Include="images\occupy\occupancy-06%402x.jpg" />
     <Content Include="images\occupy\occupancy-06.jpg" />
-    <Content Include="images\occupy\occupancy-07%402x.jpg" />
     <Content Include="images\occupy\occupancy-07.jpg" />
-    <Content Include="images\occupy\occupancy-08%402x.jpg" />
     <Content Include="images\occupy\occupancy-08.jpg" />
     <Content Include="images\combat\apt710-01%402x.jpg" />
     <Content Include="images\combat\apt710-01.jpg" />
@@ -509,7 +488,6 @@
     <Content Include="images\wannabe\wannabe-02.jpg" />
     <Content Include="images\wannabe\wannabe-04.jpg" />
     <Content Include="images\wannabe\wannabe-05.jpg" />
-    <Content Include="images\zoom%402x.png" />
     <Content Include="images\zoom.png" />
     <Content Include="less\color.less" />
     <Content Include="less\fonts.less" />
@@ -598,6 +576,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="bootstrap\bootstrap-4.5.3-dist\css\" />
+    <Folder Include="bootstrap\bootstrap-4.5.3-dist\js\" />
     <Folder Include="images\phenom\" />
   </ItemGroup>
   <ItemGroup>

@@ -63,8 +63,11 @@ hr {
 	background-color: rgba(255,255,255,0.8);
 }
 .navbar {
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 1rem;
 	padding-bottom: 0rem;
+
 }
 .navbar-light .navbar-brand {
 	font-family: 'Julius Sans One', 'Open Sans', sans-serif;

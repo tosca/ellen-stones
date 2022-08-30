@@ -1,13 +1,14 @@
  body {
+	font-size: .9rem;
 	font-weight: 500;
-	color: #000;
+	color: #41464b;
 }
 p {
 	 font-family: 'Open Sans', sans-serif;
 	 font-weight: 500;
 	 line-height: 1.6;
-	 padding-left: 3rem;
-	 padding-right: 3rem;
+	 padding-left: 1rem;
+	 padding-right: 1rem;
 }
 
 h5 , h6{
@@ -50,7 +51,7 @@ img {
 	margin-top: 40px;
 }
 .ptop {
-	padding-top: 100px;
+	padding-top: 90px;
 }
 hr {
 	margin: 10px 0;
@@ -69,8 +70,6 @@ hr {
 .navbar {
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 1rem;
-	padding-bottom: 0rem;
 }
 .navbar-light .navbar-brand {
 	font-family: 'Julius Sans One', 'Open Sans', sans-serif;
@@ -158,9 +157,9 @@ hr {
 .carousel-caption {
 	position: relative;
 	left: auto;
-	right:auto;
-	margin-top: 1.2rem;
-	background-color: rgba(73, 71, 71, 0.2);
+	right:
+	auto;
+	margin-top: .7rem;
 }	
 /* content */
 .content-container {

@@ -1,9 +1,7 @@
  body {
-	font-size: .9rem;
-	font-weight: 500;
 	color: #41464b;
 }
-p {
+p , .p{
 	 font-family: 'Open Sans', sans-serif;
 	 font-weight: 500;
 	 line-height: 1.6;
@@ -52,6 +50,7 @@ img {
 }
 .ptop {
 	padding-top: 90px;
+	padding-bottom: 40px;
 }
 hr {
 	margin: 10px 0;
@@ -121,10 +120,7 @@ hr {
 }
 .page-section{
 	position: relative;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 20px 30px;
 	display:block;
 	overflow-x:hidden;
 	-webkit-transition: all 25s ease-in-out;

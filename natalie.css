@@ -24,6 +24,9 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+.img-small{
+	max-width: 20%;
+}
 .cursor-pointer{
 	cursor: crosshair;
 }
@@ -105,7 +108,7 @@ hr {
 .page-wrap {
 	width: 100%;
 	position: relative;
-	margin-top: 130px;
+	margin-top: 0px;
 	overflow-x: hidden;
 	display: block;
 }
